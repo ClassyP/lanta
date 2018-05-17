@@ -1,14 +1,7 @@
 import React from 'react';
 import { Jumbotron, Container } from 'reactstrap';
 
-export default class Header extends React.Component {
-    // constructor(props) {
-    //   super(props);
-  
-    //   this.toggleNavbar = this.toggleNavbar.bind(this);
-    //   this.state = {
-    //     collapsed: true
-    
+export default class Header extends React.Component {    
 
   render() {
     return (
