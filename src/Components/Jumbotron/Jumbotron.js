@@ -12,7 +12,7 @@ export default class Header extends React.Component {
             <Container fluid>
               {/* <Navbar /> */}
               <h1 className="display-3">LANTA CONSULTANTS</h1>
-              <p className="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+              <p className="lead"></p>
             </Container>
           </Jumbotron>
         </div>
