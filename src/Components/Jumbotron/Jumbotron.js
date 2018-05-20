@@ -1,6 +1,6 @@
 import React from 'react';
 import { Jumbotron, Container } from 'reactstrap';
-// import { Navbar } from './Navbar/Navbar.js'
+import { Navbar } from '../Navbar'
 
 
 export default class Header extends React.Component {    
@@ -10,7 +10,7 @@ export default class Header extends React.Component {
         <div>
           <Jumbotron fluid>
             <Container fluid>
-              {/* <Navbar /> */}
+              <Navbar />
               <h1 className="display-3">LANTA CONSULTANTS</h1>
               <p className="lead"></p>
             </Container>
